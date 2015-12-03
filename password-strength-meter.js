@@ -6,7 +6,6 @@ export default class PasswordStrengthMeter extends Component{
   constructor(props){
     super(props);
     this.handleInput = this.handleInput.bind(this);
-    this.createMarkup = this.createMarkup.bind(this);
     this.state = {
       resultScore: '',
       warning: '',

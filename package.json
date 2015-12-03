@@ -1,10 +1,10 @@
 {
   "name": "react-password-strength-meter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react component to display password strength meter",
   "license": "MIT",
   "repository": "abhijeetNmishra/react-password-strength-meter",
-  "main":"lib/index.js",
+  "main": "lib/index.js",
   "author": {
     "name": "Abhijeet Mishra",
     "email": "geminiabhijeet@gmail.com"
@@ -12,10 +12,10 @@
   "engines": {
     "node": "4.2.2"
   },
-  "scripts":{
+  "scripts": {
     "build": "babel password-strength-meter.js --out-file lib/index.js",
     "prepublish": "npm run build",
-    "start" : "webpack --colors --progress webpack-dev-server --content-base examples"
+    "start": "webpack --colors --progress webpack-dev-server --content-base examples"
   },
   "files": [
     "lib/index.js"
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "react": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "react-dom": "^0.14.3"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",
