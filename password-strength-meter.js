@@ -50,7 +50,9 @@ export default class PasswordStrengthMeter extends Component{
       })
     }
 
-    this.props.onChange(event);
+    if(typeof this.props.onChange === 'function'){
+      this.props.onChange(event);
+    }
   }
 
   render(){

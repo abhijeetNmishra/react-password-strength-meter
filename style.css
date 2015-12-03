@@ -1,31 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Signika:400,700|Courgette);
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    padding: 2.5em 2em 0em;
-    background: #f5f7f9;
-        font-size: 1.5em;
-        color: #346;
-        font-family: Signika, -apple-system, sans-serif;
-}
-
-section {
+#content section {
     margin: 0em auto 0;
     width: 100%;
     max-width: 800px;
 }
 
-input {
+#content input {
     display: block;
     margin: .5em auto 0em;
-    padding: 0.5em 1em 0.5em 0.7em;
+    padding: -0.5em 1em 0.5em 0.7em;
     width: 100%;
     border: none;
-    background: rgba(0,0,0,0.05);
-    color: rgba(0,0,0,0.8);
+    background: #159957;
+    color: white;
     font-size: 2em;
     line-height: 0;
         transition: all .5s linear;
