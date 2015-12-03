@@ -1,6 +1,6 @@
 {
   "name": "react-password-strength-meter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react component to display password strength meter",
   "license": "MIT",
   "repository": "abhijeetNmishra/react-password-strength-meter",
@@ -14,8 +14,7 @@
   },
   "scripts": {
     "build": "babel password-strength-meter.js --out-file lib/index.js",
-    "prepublish": "npm run build",
-    "start": "webpack --colors --progress webpack-dev-server --content-base examples"
+    "prepublish": "npm run build"
   },
   "files": [
     "lib/index.js"
@@ -24,7 +23,8 @@
     "react",
     "password meter",
     "react-component",
-    "password strength checker"
+    "password strength checker",
+    "zxcvbn"
   ],
   "dependencies": {
     "zxcvbn": "^4.2.0"
