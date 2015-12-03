@@ -4,7 +4,7 @@ React Component to display password strength meter with message and warning
 ## Installation & Usage
 
 ```
-npm install react-color --save
+npm install react-password-strength-meter --save
 ```
 
 ### Include the Component
