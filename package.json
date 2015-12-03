@@ -1,6 +1,6 @@
 {
   "name": "react-password-strength-meter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react component to display password strength meter",
   "license": "MIT",
   "repository": "abhijeetNmishra/react-password-strength-meter",

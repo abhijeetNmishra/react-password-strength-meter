@@ -49,6 +49,8 @@ export default class PasswordStrengthMeter extends Component{
         suggestions:''
       })
     }
+
+    this.props.onChange(event);
   }
 
   render(){
@@ -73,5 +75,6 @@ export default class PasswordStrengthMeter extends Component{
 
 PasswordStrengthMeter.propTypes = {
   passwordText: React.PropTypes.string,
-  strength: React.PropTypes.object
+  strength: React.PropTypes.object,
+  onChange: React.PropTypes.func,
 }
